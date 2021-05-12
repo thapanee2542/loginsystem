@@ -74,7 +74,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           ),
                           TextFormField(
                             validator: RequiredValidator(
-                                errorText: "กรุณาป้อนรหัสผ่านด้วยค่ะ"),
+                                errorText: "กรุณาป้อนรหัสผ่านด้วย"),
                             obscureText: true,
                             onSaved: (String password) {
                               profile.password = password;
